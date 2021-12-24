@@ -1,0 +1,113 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background: #1c1c1c;
+  font-family: Georgia;
+  text-align: center;
+}
+
+#title {
+  font-size: 4.5rem;
+  margin-top: 1.5rem;
+  font-family: fantasy;
+}
+
+.desc {
+  font-family: Trebuchet MS;
+  font-size: 1.5rem;
+  margin-bottom: 1.7rem;
+}
+
+#img-div {
+  background-color: white;
+  width: 80%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  color: black;
+}
+
+#tribute-info {
+  margin: 4rem 23vw;
+  margin-bottom: 2rem;
+  padding: 0 2.5rem;
+}
+
+.tribute-title {
+  font-family: fantasy;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.footer a {
+  color: #01ff70;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  #img-caption {
+    display: none;
+  }
+
+  #img-div {
+    padding: 0.5rem;
+  }
+
+  #title {
+    font-size: 9vw;
+  }
+
+  .desc {
+    font-size: 4vw;
+    margin-bottom: 1rem;
+  }
+
+  #tribute-info {
+    margin: 2rem 5vw;
+  }
+
+  #tribute-info .tribute-title {
+    font-size: 5vw;
+  }
+
+  #tribute-info p {
+    font-size: 4vw;
+  }
+
+  .footer {
+    font-size: 4vw;
+    padding: 0.8rem;
+  }
+}
